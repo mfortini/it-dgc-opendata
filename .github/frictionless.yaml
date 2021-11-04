@@ -1,0 +1,3 @@
+main:
+  tasks:
+    - path: metadata/frictionless/*.yaml
