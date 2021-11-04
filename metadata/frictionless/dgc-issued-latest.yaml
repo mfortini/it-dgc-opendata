@@ -2,7 +2,7 @@ encoding: utf-8
 format: csv
 hashing: md5
 name: dgc-issued-latest
-path: dgc-issued-latest.csv
+path: ../../data/dgc-issued-latest.csv
 profile: tabular-data-resource
 schema:
   fields:
@@ -12,7 +12,7 @@ schema:
       type: integer
       title: number of daily DGC issued by vaccination
       constraint:
-        minimum: 0
+        maximum: 0
     - name: issued_for_vaccines_total
       type: integer
       title: number of total DGC issued by vaccination
